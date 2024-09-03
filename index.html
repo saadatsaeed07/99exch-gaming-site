@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head>
+  <meta charset="utf-8">
+  <title>Race T20 VR</title>
+  <base href="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicons/.-2418-favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  </noscript>
+
+</head>
+
+<body class="dark">
+  <app-root _nghost-ng-c4034313182 ng-version="17.1.3" ngh="6" ng-server-context="ssg"><app-header
+      _ngcontent-ng-c4034313182 _nghost-ng-c429463733 ngh="0">
+      <header _ngcontent-ng-c429463733
+        class="flex h-[50.44px] items-center justify-between bg-[#0F2462] py-[11px] pl-[11px] pr-[5px]">
+        <div _ngcontent-ng-c429463733 class="flex items-center"><i _ngcontent-ng-c429463733
+            class="fas fa-home -mt-[2px] w-[13.5px] text-[12px] text-white"></i><img _ngcontent-ng-c429463733
+            src="images/logos-logo.png" alt="logo" class="w-[100px]"></div>
+        <div _ngcontent-ng-c429463733 class="-translate-y-[1px] text-white"><i _ngcontent-ng-c429463733
+            class="fa fa-user mr-1 text-[13px]"></i><span _ngcontent-ng-c429463733 class="text-[13px]">DEMO123</span>
+        </div>
+      </header>
+    </app-header>
+    <div _ngcontent-ng-c4034313182
+      class="flex border-2 border-[#9A9A9A] bg-[#ccc] dark:bg-black lg:p-[14.5px] [&amp;&gt;*:last-child]:flex-1 lg:[&amp;&gt;*:last-child]:ml-[1%]">
+      <app-game-left-sidebar _ngcontent-ng-c4034313182 class="lg:w-[25%]" _nghost-ng-c3469065045 ngh="1">
+        <aside _ngcontent-ng-c3469065045
+          class="fixed -left-full top-24 z-50 flex h-[calc(100%-45px)] w-full flex-col gap-[7px] overflow-hidden rounded-lg bg-[#fff] pb-14 text-white duration-300 dark:bg-[#222] lg:static [&amp;_*]:select-none active">
+          <div _ngcontent-ng-c3469065045
+            class="flex h-[19.5vh] justify-evenly rounded-[7.523px] bg-[url('/assets/images/sidebar-logo-bg.svg')] bg-cover bg-[100%_100%] bg-no-repeat p-[10px]">
+            <div _ngcontent-ng-c3469065045 class="flex h-full w-[20%] items-center justify-center"><a
+                _ngcontent-ng-c3469065045 style="text-decoration: none;" href="99exch.vercel.html"><button
+                  _ngcontent-ng-c3469065045
+                  class="flex h-[50px] w-[50px] flex-col items-center justify-evenly rounded-[10px] border border-solid border-[#cf8d2e] py-0.5"
+                  style="background-color: initial;"><img _ngcontent-ng-c3469065045 src="images/icons-lobby-icon.svg"
+                    alt="lobby-icon">
+                  <p _ngcontent-ng-c3469065045 class="m-0 scale-x-125 text-[10px] font-medium text-white"> Lobby </p>
+                </button></a></div>
+            <div _ngcontent-ng-c3469065045 class="flex w-[80%] flex-row justify-center pr-[20%]"><img
+                _ngcontent-ng-c3469065045 src="images/logos-games-logo.svg" alt="games-logo" class="logo-img"></div>
+          </div>
+          <div _ngcontent-ng-c3469065045 class="mx-auto flex w-[90.2%] flex-col gap-[6px] *:flex-1">
+            <ul _ngcontent-ng-c3469065045
+              class="flex gap-[5px] rounded-full dark:bg-black bg-white border border-[#cf8d2e] dark:border-0 px-3 py-1.5 text-[8px] uppercase *:flex-1 *:cursor-pointer *:rounded-full *:bg-[#515151] *:py-[9px] *:text-center *:tracking-wider [&amp;&gt;.active]:bg-[#CF8D2E]">
+              <li _ngcontent-ng-c3469065045><span _ngcontent-ng-c3469065045>Popular Games (21)</span></li>
+              <li _ngcontent-ng-c3469065045><span _ngcontent-ng-c3469065045>Dealer Games (27)</span></li>
+              <li _ngcontent-ng-c3469065045 class="active"><span _ngcontent-ng-c3469065045>Virtual Games (40)</span>
+              </li>
+            </ul>
+            <div _ngcontent-ng-c3469065045 class="relative ml-[2px] mr-[1.5px] mt-[0.5px]"><input
+                _ngcontent-ng-c3469065045 type="text" placeholder="Search Game"
+                class="w-full rounded border dark:border-[#403f3e] focus:border-2 focus:border-[#cf8d2e] hover:border-[#cf8d2e] dark:focus:border-2 dark:focus:border-[#cf8d2e] dark:hover:border-[#cf8d2e] dark:bg-black bg-white px-3.5 pb-1 pt-[5px] text-[#cf8d2e] dark:text-[#ffffff80] outline-none placeholder:origin-left placeholder:scale-x-[1.2] placeholder:text-black/35 focus:placeholder:text-[#cf8d2e] focus:placeholder:opacity-30 dark:placeholder:text-[#fff3] ng-untouched ng-pristine ng-valid"
+                value><span _ngcontent-ng-c3469065045
+                class="pointer-events-none absolute right-3.5 top-1/2 inline-block w-6 -translate-y-1/2"><svg
+                  _ngcontent-ng-c3469065045="" focusable="false" viewbox="0 0 24 24" aria-hidden="true"
+                  fill="currentColor" class="w-full" style="color: hsla(0, 0%, 100%, 0.6);">
+                  <path _ngcontent-ng-c3469065045=""
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                  </path>
+                </svg></span></div>
+          </div>
+          <div _ngcontent-ng-c3469065045 class="mt-0.5 h-full overflow-y-auto lg:[overflow:unset]">
+            <ul _ngcontent-ng-c3469065045
+              class="ml-[9px] mr-[14px] mt-[5.5px] grid grid-cols-2 gap-[20px_22px] text-[11px] even:translate-x-0.5">
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="teenpatti.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-teenpatti.jpg" alt="Teenpatti">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Teenpatti</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="2-card-teenpatti.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-2_cards_teenpatti.jpg" alt="2 Card Teenpatti">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">2 Card Teenpatti</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="3-cards-judgement.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-3_card_judgement.jpg" alt="3 Cards Judgement">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">3 Cards Judgement</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="auto-roulette.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-auto_roulette.jpg" alt="Auto Roulette">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Auto Roulette</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="roulette.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-roulette.jpg" alt="Roulette">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Roulette</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="super-over-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-super_over_vr.jpg" alt="Super Over VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Super Over VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="super-over-one-day-vr.html"><img _ngcontent-ng-c3469065045
+                    loading="lazy" class="w-full rounded-[20px]" src="images/games-super_over_one_day_vr.jpg"
+                    alt="Super Over One Day VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Super Over One Day VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="dragon-tiger.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-dragon_tiger_lobby.jpg" alt="Dragon Tiger">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Dragon Tiger</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="worli-matka.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-worli_matka.jpg" alt="Worli Matka">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Worli Matka</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="teenpatti-one-day.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-teenpatti_one_day.jpg" alt="Teenpatti One day">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Teenpatti One day</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="teenpatti-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-teenpatti_vr.jpg" alt="Teenpatti VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Teenpatti VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="teenpatti-one-day-vr.html"><img _ngcontent-ng-c3469065045
+                    loading="lazy" class="w-full rounded-[20px]" src="images/games-teenpatti_one_day_vr.jpg"
+                    alt="Teenpatti One day VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Teenpatti One day VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="high-low.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-high_low.jpg" alt="High Low">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">High Low</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="baccarat-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-baccarat_vr.jpg" alt="Baccarat VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Baccarat VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="race-to-17-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-race_to_17_vr.jpg" alt="Race to 17 VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Race to 17 VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="2-card-teenpatti-vr.html"><img _ngcontent-ng-c3469065045
+                    loading="lazy" class="w-full rounded-[20px]" src="images/games-2_card_teenpatti_vr.jpg"
+                    alt="2 Card Teenpatti VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">2 Card Teenpatti VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="poker-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-poker_vr.jpg" alt="Poker VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Poker VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="32-cards-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-32_cards_vr.jpg" alt="32 Cards VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">32 Cards VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="andar-bahar-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-andar_bahar_vr.jpg" alt="Andar Bahar VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Andar Bahar VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="amar-akbar-anthony.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-amar_akbar_anthony.jpg" alt="Amar Akbar Anthony">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Amar Akbar Anthony</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="sicbo.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-sicbo.jpg" alt="Sicbo">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Sicbo</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="center-card-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-center_card_vr.jpg" alt="Center Card VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Center Card VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="7-up&amp;down.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-7_up&amp;down.jpg" alt="7 Up&amp;Down">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">7 Up&amp;Down</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li>
+              <li _ngcontent-ng-c3469065045
+                class="cursor-pointer hover:rounded-[10px] hover:border hover:border-[#cf8d2e] *:hover:scale-95"><a
+                  _ngcontent-ng-c3469065045 href="race-t20-vr.html"><img _ngcontent-ng-c3469065045 loading="lazy"
+                    class="w-full rounded-[20px]" src="images/games-race_t20_vr.jpg" alt="Race T20 VR">
+                  <div _ngcontent-ng-c3469065045 class="flex items-center justify-between">
+                    <p _ngcontent-ng-c3469065045 class="text-[#222] dark:text-white">Race T20 VR</p>
+                    <p _ngcontent-ng-c3469065045 class="flex items-center gap-1"><img _ngcontent-ng-c3469065045
+                        src="images/icons-member-icon.svg" alt="member-icon"><span _ngcontent-ng-c3469065045
+                        class="text-[12px] font-semibold text-[#222] dark:text-white">108</span></p>
+                  </div>
+                </a></li><!---->
+            </ul>
+          </div>
+        </aside>
+      </app-game-left-sidebar><router-outlet _ngcontent-ng-c4034313182></router-outlet><app-race-t20-vr
+        _nghost-ng-c1729956427 ngh="5">
+        <main _ngcontent-ng-c1729956427 class="flex flex-col lg:flex-row"><app-game-content _ngcontent-ng-c1729956427
+            class="min-h-screen flex-1 lg:mr-[1.351%]" _nghost-ng-c3154321304 ngh="0">
+            <section _ngcontent-ng-c3154321304><app-game-subheader _ngcontent-ng-c3154321304 _nghost-ng-c2728115421
+                ngh="0">
+                <div _ngcontent-ng-c2728115421
+                  class="theme_toggler_wrappe flex h-[45px] items-center justify-between bg-white pe-[10px] ps-[0px] dark:bg-[#2b2b2b] lg:hidden">
+                  <button _ngcontent-ng-c2728115421
+                    class="flex scale-90 cursor-pointer appearance-none flex-col items-center justify-center space-y-1 overflow-visible rounded-full border-0 p-2 text-[#fff] outline-0">
+                    <div _ngcontent-ng-c2728115421 class="h-[2px] w-5 bg-black dark:bg-[#fff]"></div>
+                    <div _ngcontent-ng-c2728115421 class="h-[2px] w-5 bg-black dark:bg-[#fff]"></div>
+                    <div _ngcontent-ng-c2728115421 class="h-[2px] w-5 bg-black dark:bg-[#fff]"></div>
+                  </button>
+                  <div _ngcontent-ng-c2728115421 class="header-right flex items-center gap-[15px]">
+                    <div _ngcontent-ng-c2728115421 class="theme-container"><img _ngcontent-ng-c2728115421
+                        src="images/icons-toggle-light-icon.svg" alt="light-icon" class="t-icon invert dark:invert-0"
+                        style="height: 25px; width: 25px;"></div>
+                    <div _ngcontent-ng-c2728115421 class="balance-container">
+                      <div _ngcontent-ng-c2728115421
+                        class="text-container flex items-center gap-[9.5px] rounded-[3px] border border-black bg-white px-[3px] pb-[3px] pt-1 dark:border-[#525252] dark:bg-[#191919]">
+                        <img _ngcontent-ng-c2728115421 src="images/icons-balance-light-icon.svg" alt
+                          class="m-icon hidden h-[16px] w-[16px] -translate-y-[0.5px] dark:block"><img
+                          _ngcontent-ng-c2728115421 src="images/icons-balance-dark-icon.svg" alt
+                          class="m-icon block h-[16px] w-[16px] -translate-y-[0.5px] dark:hidden">
+                        <div _ngcontent-ng-c2728115421
+                          class="balance text-[10px] text-black opacity-60 dark:text-[#ededed] dark:opacity-50">
+                          <p _ngcontent-ng-c2728115421
+                            class="bal-titles -mt-[1px] origin-right scale-x-[1.15] tracking-wide"> Bal: <span
+                              _ngcontent-ng-c2728115421 class="text-[#cf8d2e]">0</span></p>
+                          <p _ngcontent-ng-c2728115421
+                            class="bal-titles -mt-[1px] origin-right scale-x-[1.15] tracking-wide"> Exp: <span
+                              _ngcontent-ng-c2728115421 class="text-[#cf8d2e]">0</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-ng-c2728115421
+                  class="sub-header flex w-full flex-row items-center justify-between border-t border-t-[#cf8d2e] bg-white p-[4px_10px] pb-[5px] text-[13px] dark:bg-[#2b2b2b] lg:h-[47px] lg:border-0">
+                  <div _ngcontent-ng-c2728115421
+                    class="game-title flex origin-left scale-x-[1.23] items-center font-[500] uppercase text-black dark:text-[#fff] lg:text-[16px]">
+                    RACE TO 17 VR </div>
+                  <div _ngcontent-ng-c2728115421
+                    class="flex origin-right -translate-y-[1px] scale-x-[1.03] items-center justify-center gap-1.5 text-[10px] font-medium lg:hidden">
+                    <span _ngcontent-ng-c2728115421 class="origin-right scale-x-125 text-[#b97f2b]">Round ID :
+                    </span><span _ngcontent-ng-c2728115421
+                      class="origin-right scale-x-[1.08] scale-y-90 ps-[1px] text-black dark:text-[#fff]">1708415296.382697</span>
+                  </div>
+                  <div _ngcontent-ng-c2728115421
+                    class="mt-[1px] hidden items-center justify-between gap-[3px] rounded-[3px] border-[0.7px] border-black bg-black/10 px-[4px] pb-[5.5px] pt-[4px] dark:border-[#b97f2b] dark:bg-black lg:flex">
+                    <span _ngcontent-ng-c2728115421><svg _ngcontent-ng-c2728115421="" width="8" height="10"
+                        viewbox="0 0 8 10" fill="b97f2b" xmlns="http://www.w3.org/2000/svg"
+                        class="fill-black dark:fill-[#b97f2b]">
+                        <path _ngcontent-ng-c2728115421=""
+                          d="M7.125 3.75H4.625V1.25H0.875V8.75H7.125V3.75ZM6.86625 3.125L5.25 1.50875V3.125H6.86625ZM0.5625 0.625H5.25L7.75 3.125V9.0625C7.75 9.14538 7.71708 9.22487 7.65847 9.28347C7.59987 9.34208 7.52038 9.375 7.4375 9.375H0.5625C0.47962 9.375 0.400134 9.34208 0.341529 9.28347C0.282924 9.22487 0.25 9.14538 0.25 9.0625V0.9375C0.25 0.85462 0.282924 0.775134 0.341529 0.716529C0.400134 0.657924 0.47962 0.625 0.5625 0.625ZM2.125 5H5.875V5.625H2.125V5ZM2.125 3.125H3.6875V3.75H2.125V3.125ZM2.125 6.875H5.875V7.5H2.125V6.875Z"
+                          fill="var(--rule-icon)"></path>
+                      </svg></span>
+                    <p _ngcontent-ng-c2728115421
+                      class="flex origin-left scale-x-[1.15] cursor-pointer items-center justify-center pe-1 text-[8px] text-black dark:text-white">
+                      Rules </p>
+                  </div>
+                </div>
+              </app-game-subheader>
+              <div _ngcontent-ng-c3154321304
+                class="flex flex-col justify-between gap-3 max-sm:px-2.5 max-sm:py-1 lg:gap-2.5">
+                <div _ngcontent-ng-c3154321304 class="w-full bg-stone-300">
+                  <div _ngcontent-ng-c3154321304 class="h-[197px] w-full border lg:h-[371px]">Iframe wrapper</div>
+                  <div _ngcontent-ng-c3154321304 class="hidden h-10 w-full xl:block"><app-game-bet-layer
+                      _ngcontent-ng-c3154321304 _nghost-ng-c3905999307 ngh="2">
+                      <div _ngcontent-ng-c3905999307
+                        class="bottom-layer1 flex items-center justify-between border border-[rgba(207,141,46,.35)] bg-[linear-gradient(180deg,#efefef,#c6c6c6)] px-[5px] pb-[5px] pt-[5px] dark:bg-white dark:bg-[linear-gradient(to_bottom,#060606,#3b3b3b)] lg:border-2 lg:bg-white lg:px-0 lg:pb-[1px] lg:pt-[0px] lg:[border-image-slice:1!important] lg:[border-image-source:linear-gradient(180deg,rgba(207,141,46,.47),#cf8d2e_50%,rgba(207,141,46,.47))] dark:lg:bg-[linear-gradient(to_top,#060606,#3b3b3b)]">
+                        <div _ngcontent-ng-c3905999307
+                          class="buttons-div flex w-[56%] *:mr-[3px] *:origin-left lg:w-[55%] lg:gap-[1.5px] *:lg:scale-x-105">
+                          <button _ngcontent-ng-c3905999307
+                            class="layer-btn w-auto uppercase lg:text-[11px]">c</button><button
+                            _ngcontent-ng-c3905999307
+                            class="layer-btn w-auto uppercase lg:text-[11px]">h</button><button
+                            _ngcontent-ng-c3905999307 class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]">
+                            h </button><button _ngcontent-ng-c3905999307
+                            class="layer-btn w-auto uppercase lg:text-[11px]">s</button><button
+                            _ngcontent-ng-c3905999307
+                            class="layer-btn w-auto uppercase lg:text-[11px]">d</button><button
+                            _ngcontent-ng-c3905999307
+                            class="layer-btn w-auto uppercase lg:text-[11px]">h</button><button
+                            _ngcontent-ng-c3905999307 class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]">
+                            h </button><button _ngcontent-ng-c3905999307
+                            class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h </button><button
+                            _ngcontent-ng-c3905999307 class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]">
+                            h </button><button _ngcontent-ng-c3905999307
+                            class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h </button>
+                        </div>
+                        <div _ngcontent-ng-c3905999307 class="hidden text-[10px] font-[600] text-white">
+                          <p _ngcontent-ng-c3905999307>Min:100 <span _ngcontent-ng-c3905999307>|</span></p>
+                          <p _ngcontent-ng-c3905999307>Max:1500000</p>
+                        </div>
+                        <div _ngcontent-ng-c3905999307
+                          class="hidden origin-right scale-x-105 text-[10px] font-[600] text-[#2e2e2e] dark:text-white lg:block">
+                          <p _ngcontent-ng-c3905999307 class="origin-left scale-x-110">Round ID:</p>
+                          <p _ngcontent-ng-c3905999307 class="-mt-[1.5px] origin-left scale-x-105">1707719563.9402814
+                          </p>
+                        </div>
+                        <div _ngcontent-ng-c3905999307 class="player-div h-full w-[45%] text-end lg:w-[19%]"><button
+                            _ngcontent-ng-c3905999307
+                            class="me-[5px] origin-right translate-y-[1px] scale-x-[1.06] rounded-[3px] bg-[#cf8d2e] px-2 pb-[7px] pt-[7.5px] text-[9px] font-bold uppercase tracking-widest text-white max-lg:mb-0.5 lg:mr-[5px] lg:translate-y-0 lg:scale-x-[1.07] lg:pb-[7px] lg:pl-[7px] lg:pr-2 lg:pt-[7px] lg:font-[900]">
+                            player history </button></div>
+                      </div>
+                      <div _ngcontent-ng-c3905999307
+                        class="bottom-layer2 flex items-center justify-between rounded-b-[10px] border border-[#cf8d2e59] bg-[#efefef] px-[5px] py-[7px] dark:bg-[linear-gradient(180deg,#060606,#3b3b3b)] lg:hidden">
+                        <div _ngcontent-ng-c3905999307 class="rules-area flex min-w-[53%] items-center gap-2.5">
+                          <div _ngcontent-ng-c3905999307
+                            class="flex items-center justify-between gap-[3px] rounded-[3px] border border-[#b97f2b] bg-[hsla(0,0%,100%,.2)] px-[7px] py-1.5">
+                            <span _ngcontent-ng-c3905999307><svg _ngcontent-ng-c3905999307="" width="15" height="15"
+                                viewbox="0 0 8 10" fill="b97f2b" xmlns="http://www.w3.org/2000/svg"
+                                class="fill-black dark:fill-[#b97f2b]">
+                                <path _ngcontent-ng-c3905999307=""
+                                  d="M7.125 3.75H4.625V1.25H0.875V8.75H7.125V3.75ZM6.86625 3.125L5.25 1.50875V3.125H6.86625ZM0.5625 0.625H5.25L7.75 3.125V9.0625C7.75 9.14538 7.71708 9.22487 7.65847 9.28347C7.59987 9.34208 7.52038 9.375 7.4375 9.375H0.5625C0.47962 9.375 0.400134 9.34208 0.341529 9.28347C0.282924 9.22487 0.25 9.14538 0.25 9.0625V0.9375C0.25 0.85462 0.282924 0.775134 0.341529 0.716529C0.400134 0.657924 0.47962 0.625 0.5625 0.625ZM2.125 5H5.875V5.625H2.125V5ZM2.125 3.125H3.6875V3.75H2.125V3.125ZM2.125 6.875H5.875V7.5H2.125V6.875Z"
+                                  fill="var(--rule-icon)"></path>
+                              </svg></span>
+                            <p _ngcontent-ng-c3905999307
+                              class="flex origin-left scale-x-[1.15] items-center justify-center pe-1 text-[12px] text-black dark:text-white">
+                              Rules </p>
+                          </div>
+                          <div _ngcontent-ng-c3905999307
+                            class="flex origin-left scale-x-[1.14] flex-col gap-[2px] text-[10px] font-[600] text-black dark:text-white lg:flex-row">
+                            <p _ngcontent-ng-c3905999307>Min:100 <span _ngcontent-ng-c3905999307>|</span></p>
+                            <p _ngcontent-ng-c3905999307>Max:150000</p>
+                          </div>
+                        </div>
+                      </div>
+                    </app-game-bet-layer></div>
+                </div><app-game-bet-view _ngcontent-ng-c1729956427 _nghost-ng-c2503979074 ngh="4">
+                  <section _ngcontent-ng-c2503979074 class="mb-[5px] overflow-hidden rounded">
+                    <div _ngcontent-ng-c2503979074
+                      class="bg-white bg-[url('/assets/images/odds-bg-light.svg')] p-1.5 pb-[10px] dark:bg-[#222] dark:bg-[url('/assets/images/odds-bg-dark.svg')] lg:rounded-md">
+                      <app-game-view-header _ngcontent-ng-c2503979074 _nghost-ng-c2235189055 ngh="3">
+                        <div _ngcontent-ng-c2235189055
+                          class="-mt-[1.5px] mr-[1px] flex flex-wrap justify-between px-1 text-[10px] text-white lg:-mt-[1px] lg:mr-0 lg:flex-nowrap lg:pl-3.5 lg:pr-1 [&amp;_.view-toggler]:m-0 [&amp;_.view-toggler]:-mr-3.5 [&amp;_.view-toggler]:mt-[1px]">
+                          <div _ngcontent-ng-c2235189055
+                            class="-mt-[1px] flex gap-[25px] lg:order-1 lg:mt-0 lg:gap-10 lg:pt-[5.5px] [&amp;&gt;div&gt;p]:scale-x-[1.23] [&amp;&gt;div&gt;p]:text-[#b97f2b] [&amp;&gt;div]:flex [&amp;&gt;div]:flex-col [&amp;&gt;div]:items-center">
+                            <app-game-view-toggler _ngcontent-ng-c2503979074 _nghost-ng-c1601140482 ngh="0">
+                              <div _ngcontent-ng-c1601140482
+                                class="flex flex-col items-center gap-0.5 text-[10px] text-[#b97f2b]">
+                                <p _ngcontent-ng-c1601140482 class="origin-left scale-x-125 font-normal">CLASSIC VIEW
+                                </p>
+                                <div _ngcontent-ng-c1601140482
+                                  class="view-toggler mr-[1.9px] mt-[2.5px] w-[27px] cursor-pointer rounded-full border-[0.9px] border-[#b97f2b] bg-white dark:bg-black">
+                                  <div _ngcontent-ng-c1601140482
+                                    class="m-[1px] aspect-square w-[11px] -translate-y-[0.5px] translate-x-[0.2px] rounded-full bg-[#b97f2b]">
+                                  </div>
+                                </div>
+                              </div>
+                            </app-game-view-toggler>
+                            <div _ngcontent-ng-c2235189055>
+                              <p _ngcontent-ng-c2235189055>LAST WIN</p><span _ngcontent-ng-c2235189055
+                                class="!text-black dark:!text-white">0</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="-ml-1.5 lg:-ml-3.5">
+                              <p _ngcontent-ng-c2235189055>TOTAL BET</p><span _ngcontent-ng-c2235189055
+                                class="!text-black dark:!text-white">0</span>
+                            </div>
+                          </div>
+                          <div _ngcontent-ng-c2235189055
+                            class="-mr-[1px] flex gap-[5px] text-[8px] font-medium lg:order-3 lg:ml-4 lg:mr-0 lg:mt-[1px] [&amp;_p]:scale-x-125">
+                            <button _ngcontent-ng-c2235189055
+                              class="mb-0.5 flex flex-col items-center justify-between gap-[7px] rounded-md border border-[#cf8d2e] bg-white pb-[1px] pl-[7px] pr-1.5 pt-0.5 dark:bg-black lg:mb-1.5 lg:mt-[5px] lg:gap-0 lg:px-[7.5px]"><img
+                                _ngcontent-ng-c2235189055 src="images/icons-undo-icon.svg" alt="undo-icon"
+                                class="w-5 translate-y-[3.5px]">
+                              <p _ngcontent-ng-c2235189055
+                                class="-translate-x-[1px] !text-black dark:!text-white lg:translate-x-0"> UNDO </p>
+                            </button><button _ngcontent-ng-c2235189055
+                              class="mb-0.5 flex flex-col items-center justify-between rounded-md border border-[#cf8d2e] bg-white px-1.5 dark:bg-black lg:mb-1.5 lg:mt-[5px] lg:px-[7.25px]"><img
+                                _ngcontent-ng-c2235189055 src="images/icons-reset-icon.svg" alt="reset-icon"
+                                class="w-5 translate-y-[1px] lg:translate-y-[1.5px]">
+                              <p _ngcontent-ng-c2235189055
+                                class="-translate-y-[1px] translate-x-[1px] !text-black dark:!text-white"> RESET </p>
+                            </button><!---->
+                          </div>
+                          <div _ngcontent-ng-c2235189055
+                            class="mx-auto mt-1.5 flex w-[80.25%] translate-x-[0.5px] gap-[10.7px] rounded-full border-[1.5px] border-double border-transparent bg-white bg-[linear-gradient(180deg,#e2e2e2,#e2e2e2),linear-gradient(90deg,#cf8d2e,#cf8d2e,rgba(207,141,46,0));] bg-origin-border px-1 py-[0.5px] [background-clip:padding-box,border-box] *:-translate-y-0 *:cursor-pointer dark:bg-black dark:bg-[linear-gradient(180deg,#000,#000),linear-gradient(270deg,#000,hsla(0,0%,82%,0),#ececec)] lg:py-[1.5px] lg:order-2 lg:ml-[2px] lg:mr-0 lg:mt-0 lg:w-[43.15%] lg:-translate-x-0.5 lg:gap-[11px] [&amp;&gt;*:hover]:-translate-y-1 [&amp;&gt;div]:flex">
+                            <div _ngcontent-ng-c2235189055 class="relative w-[30px] lg:w-8"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-red-chip.svg" alt="red-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[20%] top-[18%] font-['Bebas_Neue'] text-base font-bold">100</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="relative w-[30px] translate-x-[3px] lg:w-8"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-maroon-chip.svg" alt="maroon-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[20%] top-[18%] font-['Bebas_Neue'] text-base font-bold">500</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="relative w-10 lg:w-[42px]"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-green-chip.svg" alt="green-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[30%] top-[15%] font-['Bebas_Neue'] text-lg font-bold">1K</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="relative w-[30px] -translate-x-[3px] lg:w-8"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-blue-chip.svg" alt="blue-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[25%] top-[18%] font-['Bebas_Neue'] text-base font-bold">5K</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="relative w-[30px] lg:w-8"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-purple-chip.svg" alt="purple-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[20%] top-[18%] font-['Bebas_Neue'] text-base font-bold">10K</span>
+                            </div>
+                            <div _ngcontent-ng-c2235189055 class="relative w-[30px] translate-x-[3px] lg:w-8"><img
+                                _ngcontent-ng-c2235189055 src="images/chips-pink-chip.svg" alt="pink-chip"
+                                class="w-full"><span _ngcontent-ng-c2235189055
+                                class="absolute right-[20%] top-[18%] font-['Bebas_Neue'] text-base font-bold">25K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </app-game-view-header>
+                      <div _ngcontent-ng-c2503979074
+                        class="relative mx-2 mt-2 rounded-md border border-[rgba(207,141,46,.35)] bg-white p-2.5 dark:bg-black">
+                        <div _ngcontent-ng-c2503979074
+                          class="flex flex-col gap-4 border border-[rgba(207,141,46,.35)] bg-[linear-gradient(180deg,#eab8be,#b1c5d6)] p-2.5 dark:bg-[linear-gradient(180deg,#34050b,#02111e)] lg:gap-0 lg:border-none lg:bg-none lg:dark:bg-black lg:dark:bg-none">
+                          <div _ngcontent-ng-c2503979074
+                            class="flex overflow-hidden rounded-xl *:border *:border-transparent *:bg-origin-border *:[background-clip:padding-box,border-box] dark:bg-[linear-gradient(270deg,#000,#000),linear-gradient(0deg,#000,hsla(0,0%,82%,0),#ececec)] lg:bg-none lg:*:border-none">
+                            <div _ngcontent-ng-c2503979074
+                              class="flex flex-1 flex-col items-center gap-2 bg-[linear-gradient(180deg,#a55d5d,#723a3a),linear-gradient(180deg,#fff,hsla(0,0%,100%,0))] px-6 py-2 text-[12px] text-black lg:gap-1 lg:bg-none lg:px-0">
+                              <span _ngcontent-ng-c2503979074 class="scale-x-125 text-black dark:text-white">KING
+                                SPADE</span>
+                              <div _ngcontent-ng-c2503979074
+                                class="relative flex w-full flex-col gap-2 lg:flex-row lg:rounded-bl-md lg:rounded-tl-md lg:border lg:border-r-0 lg:border-[rgba(207,141,46,.35)] lg:bg-[linear-gradient(180deg,#5a3b0d,#130f0f)] lg:pb-1.5 lg:pl-4 lg:pr-[11px] lg:pt-[5px]">
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border flex w-full items-center justify-center rounded-lg bg-[#72bbef] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">BACK</span> 3.85
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border button-border-lay flex w-full items-center justify-center rounded-lg bg-[#faa9ba] p-2 font-semibold lg:ml-1 lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">LAY</span> 4.15
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="absolute right-0 top-1/2 hidden h-2/3 -translate-y-1/2 border-r border-[rgba(207,141,46,.35)] lg:block">
+                                </div>
+                              </div>
+                            </div>
+                            <div _ngcontent-ng-c2503979074
+                              class="flex flex-1 flex-col items-center gap-2 bg-[linear-gradient(180deg,#8f599c_-11.11%,#42234b_90%),linear-gradient(180deg,#fff,hsla(0,0%,100%,0))] px-6 py-2 text-[12px] text-black lg:gap-1 lg:bg-none lg:px-0">
+                              <span _ngcontent-ng-c2503979074 class="scale-x-125 text-black dark:text-white">KING
+                                HEART</span>
+                              <div _ngcontent-ng-c2503979074
+                                class="flex w-full flex-col gap-2 lg:flex-row lg:gap-[11px] lg:rounded-br-md lg:rounded-tr-md lg:border lg:border-l-0 lg:border-[rgba(207,141,46,.35)] lg:bg-[linear-gradient(180deg,#5a3b0d,#130f0f)] lg:pb-1.5 lg:pl-[11px] lg:pr-4 lg:pt-[5px]">
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border flex w-full items-center justify-center rounded-lg bg-[#72bbef] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">BACK</span> 3.85
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border button-border-lay flex w-full items-center justify-center rounded-lg bg-[#faa9ba] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">LAY</span> 4.15
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div _ngcontent-ng-c2503979074
+                            class="flex overflow-hidden rounded-xl bg-[linear-gradient(180deg,#000,#000),linear-gradient(270deg,#000,hsla(0,0%,82%,0),#ececec)]">
+                            <div _ngcontent-ng-c2503979074
+                              class="flex flex-1 flex-col items-center gap-2 bg-white bg-[linear-gradient(180deg,#547796,#293945),linear-gradient(180deg,#fff,hsla(0,0%,100%,0))] px-6 py-2 text-[12px] text-black dark:bg-black lg:gap-1 lg:bg-none lg:px-0 lg:py-[1.5px]">
+                              <span _ngcontent-ng-c2503979074 class="scale-x-125 text-black dark:text-white">KING
+                                CLUB</span>
+                              <div _ngcontent-ng-c2503979074
+                                class="relative flex w-full flex-col gap-2 lg:flex-row lg:gap-[11px] lg:rounded-bl-md lg:rounded-tl-md lg:border lg:border-r-0 lg:border-[rgba(207,141,46,.35)] lg:bg-[linear-gradient(180deg,#5a3b0d,#130f0f)] lg:pb-1.5 lg:pl-4 lg:pr-[11px] lg:pt-[5px]">
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border flex w-full items-center justify-center rounded-lg bg-[#72bbef] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">BACK</span> 3.85
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border button-border-lay flex w-full items-center justify-center rounded-lg bg-[#faa9ba] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">LAY</span> 4.15
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="absolute right-0 top-1/2 hidden h-2/3 -translate-y-1/2 border-r border-[rgba(207,141,46,.35)] lg:block">
+                                </div>
+                              </div>
+                            </div>
+                            <div _ngcontent-ng-c2503979074
+                              class="flex flex-1 flex-col items-center gap-2 bg-white bg-[linear-gradient(180deg,#6ca69d_-11.11%,#20433e_90%),linear-gradient(180deg,#fff,hsla(0,0%,100%,0))] px-6 py-2 text-[12px] text-black dark:bg-black lg:gap-1 lg:bg-none lg:px-0 lg:py-[1.5px]">
+                              <span _ngcontent-ng-c2503979074 class="scale-x-125 text-black dark:text-white">KING
+                                DIAMOND</span>
+                              <div _ngcontent-ng-c2503979074
+                                class="flex w-full flex-col gap-2 lg:flex-row lg:gap-[11px] lg:rounded-br-md lg:rounded-tr-md lg:border lg:border-l-0 lg:border-[rgba(207,141,46,.35)] lg:bg-[linear-gradient(180deg,#5a3b0d,#130f0f)] lg:pb-1.5 lg:pl-[11px] lg:pr-4 lg:pt-[5px]">
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border flex w-full items-center justify-center rounded-lg bg-[#72bbef] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">BACK</span> 3.85
+                                </div>
+                                <div _ngcontent-ng-c2503979074
+                                  class="button-border button-border-lay flex w-full items-center justify-center rounded-lg bg-[#faa9ba] p-2 font-semibold lg:justify-between lg:py-3">
+                                  <span _ngcontent-ng-c2503979074 class="hidden lg:block">LAY</span> 4.15
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section><app-game-bet-layer _ngcontent-ng-c2503979074 class="lg:hidden" _nghost-ng-c3905999307
+                    ngh="2">
+                    <div _ngcontent-ng-c3905999307
+                      class="bottom-layer1 flex items-center justify-between border border-[rgba(207,141,46,.35)] bg-[linear-gradient(180deg,#efefef,#c6c6c6)] px-[5px] pb-[5px] pt-[5px] dark:bg-white dark:bg-[linear-gradient(to_bottom,#060606,#3b3b3b)] lg:border-2 lg:bg-white lg:px-0 lg:pb-[1px] lg:pt-[0px] lg:[border-image-slice:1!important] lg:[border-image-source:linear-gradient(180deg,rgba(207,141,46,.47),#cf8d2e_50%,rgba(207,141,46,.47))] dark:lg:bg-[linear-gradient(to_top,#060606,#3b3b3b)]">
+                      <div _ngcontent-ng-c3905999307
+                        class="buttons-div flex w-[56%] *:mr-[3px] *:origin-left lg:w-[55%] lg:gap-[1.5px] *:lg:scale-x-105">
+                        <button _ngcontent-ng-c3905999307
+                          class="layer-btn w-auto uppercase lg:text-[11px]">c</button><button _ngcontent-ng-c3905999307
+                          class="layer-btn w-auto uppercase lg:text-[11px]">h</button><button _ngcontent-ng-c3905999307
+                          class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h </button><button
+                          _ngcontent-ng-c3905999307 class="layer-btn w-auto uppercase lg:text-[11px]">s</button><button
+                          _ngcontent-ng-c3905999307 class="layer-btn w-auto uppercase lg:text-[11px]">d</button><button
+                          _ngcontent-ng-c3905999307 class="layer-btn w-auto uppercase lg:text-[11px]">h</button><button
+                          _ngcontent-ng-c3905999307 class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h
+                        </button><button _ngcontent-ng-c3905999307
+                          class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h </button><button
+                          _ngcontent-ng-c3905999307 class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h
+                        </button><button _ngcontent-ng-c3905999307
+                          class="layer-btn hidden w-auto uppercase lg:block lg:text-[11px]"> h </button>
+                      </div>
+                      <div _ngcontent-ng-c3905999307 class="hidden text-[10px] font-[600] text-white">
+                        <p _ngcontent-ng-c3905999307>Min:100 <span _ngcontent-ng-c3905999307>|</span></p>
+                        <p _ngcontent-ng-c3905999307>Max:1500000</p>
+                      </div>
+                      <div _ngcontent-ng-c3905999307
+                        class="hidden origin-right scale-x-105 text-[10px] font-[600] text-[#2e2e2e] dark:text-white lg:block">
+                        <p _ngcontent-ng-c3905999307 class="origin-left scale-x-110">Round ID:</p>
+                        <p _ngcontent-ng-c3905999307 class="-mt-[1.5px] origin-left scale-x-105">1707719563.9402814</p>
+                      </div>
+                      <div _ngcontent-ng-c3905999307 class="player-div h-full w-[45%] text-end lg:w-[19%]"><button
+                          _ngcontent-ng-c3905999307
+                          class="me-[5px] origin-right translate-y-[1px] scale-x-[1.06] rounded-[3px] bg-[#cf8d2e] px-2 pb-[7px] pt-[7.5px] text-[9px] font-bold uppercase tracking-widest text-white max-lg:mb-0.5 lg:mr-[5px] lg:translate-y-0 lg:scale-x-[1.07] lg:pb-[7px] lg:pl-[7px] lg:pr-2 lg:pt-[7px] lg:font-[900]">
+                          player history </button></div>
+                    </div>
+                    <div _ngcontent-ng-c3905999307
+                      class="bottom-layer2 flex items-center justify-between rounded-b-[10px] border border-[#cf8d2e59] bg-[#efefef] px-[5px] py-[7px] dark:bg-[linear-gradient(180deg,#060606,#3b3b3b)] lg:hidden">
+                      <div _ngcontent-ng-c3905999307 class="rules-area flex min-w-[53%] items-center gap-2.5">
+                        <div _ngcontent-ng-c3905999307
+                          class="flex items-center justify-between gap-[3px] rounded-[3px] border border-[#b97f2b] bg-[hsla(0,0%,100%,.2)] px-[7px] py-1.5">
+                          <span _ngcontent-ng-c3905999307><svg _ngcontent-ng-c3905999307="" width="15" height="15"
+                              viewbox="0 0 8 10" fill="b97f2b" xmlns="http://www.w3.org/2000/svg"
+                              class="fill-black dark:fill-[#b97f2b]">
+                              <path _ngcontent-ng-c3905999307=""
+                                d="M7.125 3.75H4.625V1.25H0.875V8.75H7.125V3.75ZM6.86625 3.125L5.25 1.50875V3.125H6.86625ZM0.5625 0.625H5.25L7.75 3.125V9.0625C7.75 9.14538 7.71708 9.22487 7.65847 9.28347C7.59987 9.34208 7.52038 9.375 7.4375 9.375H0.5625C0.47962 9.375 0.400134 9.34208 0.341529 9.28347C0.282924 9.22487 0.25 9.14538 0.25 9.0625V0.9375C0.25 0.85462 0.282924 0.775134 0.341529 0.716529C0.400134 0.657924 0.47962 0.625 0.5625 0.625ZM2.125 5H5.875V5.625H2.125V5ZM2.125 3.125H3.6875V3.75H2.125V3.125ZM2.125 6.875H5.875V7.5H2.125V6.875Z"
+                                fill="var(--rule-icon)"></path>
+                            </svg></span>
+                          <p _ngcontent-ng-c3905999307
+                            class="flex origin-left scale-x-[1.15] items-center justify-center pe-1 text-[12px] text-black dark:text-white">
+                            Rules </p>
+                        </div>
+                        <div _ngcontent-ng-c3905999307
+                          class="flex origin-left scale-x-[1.14] flex-col gap-[2px] text-[10px] font-[600] text-black dark:text-white lg:flex-row">
+                          <p _ngcontent-ng-c3905999307>Min:100 <span _ngcontent-ng-c3905999307>|</span></p>
+                          <p _ngcontent-ng-c3905999307>Max:150000</p>
+                        </div>
+                      </div>
+                    </div>
+                  </app-game-bet-layer>
+                </app-game-bet-view>
+              </div>
+            </section>
+          </app-game-content><app-game-right-sidebar _ngcontent-ng-c1729956427 class="hidden w-[33.784%] lg:block"
+            _nghost-ng-c3920448492 ngh="0">
+            <aside _ngcontent-ng-c3920448492>
+              <div _ngcontent-ng-c3920448492
+                class="hidden h-[30px] items-center justify-between rounded bg-white pl-[16px] pr-[10px] lg:flex">
+                <div _ngcontent-ng-c3920448492 class="flex"><img _ngcontent-ng-c3920448492 src="images/icons-lcd.svg"
+                    alt class="pr-[10px]">
+                  <p _ngcontent-ng-c3920448492 class="scale-x-[1.15] text-[10px]">demo123_987294</p>
+                </div>
+                <div _ngcontent-ng-c3920448492 class="flex items-center">
+                  <p _ngcontent-ng-c3920448492 class="scale-x-[1.15] pb-[0.5px] text-[10px] font-bold">Theme</p><img
+                    _ngcontent-ng-c3920448492 src="images/icons-toggle-icon.svg" alt="theme-toggler"
+                    class="cursor-pointer pl-[14px]">
+                </div>
+              </div>
+              <div _ngcontent-ng-c3920448492 class="mt-[10px] hidden rounded bg-[#222] dark:bg-white lg:block">
+                <div _ngcontent-ng-c3920448492 class="bg-[url('assets/icons/openbets-container-bg.svg')] bg-cover">
+                  <div _ngcontent-ng-c3920448492 class="px-[15px] pb-[16px] pt-[15px]">
+                    <div _ngcontent-ng-c3920448492 class="flex w-full">
+                      <div _ngcontent-ng-c3920448492
+                        class="flex w-[50%] items-center bg-white px-[10px] py-[5.5px] dark:bg-[#1c1c1c]"><img
+                          _ngcontent-ng-c3920448492 src="images/icons-balance-light-icon.svg" alt
+                          class="h-[16px] pr-[12px] dark:block hidden"><img _ngcontent-ng-c3920448492
+                          src="images/icons-balance-dark-icon.svg" alt
+                          class="h-[16px] pr-[12px] dark:hidden block"><span _ngcontent-ng-c3920448492
+                          class="scale-x-[1.3] text-[8px] text-black dark:text-white">AVAILABLE CREDIT <br
+                            _ngcontent-ng-c3920448492> EXPOSURE</span></div>
+                      <div _ngcontent-ng-c3920448492
+                        class="flex w-[50%] items-center justify-center bg-[#cf8d2e] px-[10px]"><span
+                          _ngcontent-ng-c3920448492 class="text-[10px] text-white">0 <br _ngcontent-ng-c3920448492>
+                          0</span></div>
+                    </div>
+                    <div _ngcontent-ng-c3920448492 class="px-[5px] pb-[5px] pt-[4px]">
+                      <div _ngcontent-ng-c3920448492 class="flex items-center justify-center"><span
+                          _ngcontent-ng-c3920448492 class="scale-x-[1.25] text-[10px] font-medium text-[#cf8d2e]">OPEN
+                          BETS</span></div><img _ngcontent-ng-c3920448492 src="images/icons-small-line.svg" alt
+                        class="mx-auto pt-[5px]">
+                    </div>
+                    <div _ngcontent-ng-c3920448492 class="mt-[1.5px]">
+                      <div _ngcontent-ng-c3920448492 class="flex w-full bg-black p-[10px] text-[10px] text-white/50">
+                        <div _ngcontent-ng-c3920448492 class="w-[60.9%] scale-x-[1.25] pl-[18px]">MARKETS</div>
+                        <div _ngcontent-ng-c3920448492 class="w-[21%] scale-x-[1.25] pl-[6px]">ODDS</div>
+                        <div _ngcontent-ng-c3920448492 class="scale-x-[1.25] pl-[3px]">STAKE</div>
+                      </div>
+                    </div>
+                    <div _ngcontent-ng-c3920448492
+                      class="mb-[1px] mt-[11.5px] bg-[#cccccc] px-[10px] pb-[12.5px] pt-[9.5px]">
+                      <p _ngcontent-ng-c3920448492 class="scale-x-[1.2] text-center text-[12px] font-bold"> You have no
+                        bets </p>
+                    </div>
+                  </div>
+                </div>
+              </div><app-game-market-payouts _ngcontent-ng-c1729956427 _nghost-ng-c747300558 ngh="0">
+                <div _ngcontent-ng-c747300558 class="mt-[30px] bg-white dark:bg-[#222]">
+                  <div _ngcontent-ng-c747300558
+                    class="bg-[url('assets/icons/openbets-container-bg.svg')] dark:bg-[url('assets/icons/openbets-container-bg.svg')]">
+                    <div _ngcontent-ng-c747300558 class="px-[10px] pb-[10px] pt-[9px]">
+                      <h2 _ngcontent-ng-c747300558
+                        class="scale-x-[1.2] pl-[28px] text-[12px] font-medium text-[#cf8d2e]"> Pair Plus market payouts
+                      </h2><img _ngcontent-ng-c747300558 src="images/icons-small-line.svg" alt class="mx-auto pt-[5px]">
+                      <div _ngcontent-ng-c747300558 class="mt-[10px] text-[10px]">
+                        <div _ngcontent-ng-c747300558
+                          class="flex w-full bg-black px-[13px] pb-[9.5px] pt-2 font-bold text-white dark:bg-white dark:text-black">
+                          <div _ngcontent-ng-c747300558 class="w-[60%] scale-x-[1.2] pl-[13px]">HANDS</div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[4px]">PAYOUT</div>
+                        </div>
+                        <div _ngcontent-ng-c747300558
+                          class="mb-[5px] flex w-full rounded-b bg-white px-[13px] pb-[7px] pt-[7px] text-[12px] font-medium shadow-lg dark:bg-gradient-to-b dark:from-[#0f0f0f] dark:to-[#191919]">
+                          <div _ngcontent-ng-c747300558
+                            class="w-[60%] scale-x-[1.2] pl-[13px] text-black dark:text-white"> Pair </div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[2px] text-[#cf8d2e]">1 to 1</div>
+                        </div>
+                        <div _ngcontent-ng-c747300558
+                          class="mb-[5px] flex w-full rounded bg-white px-[13px] pb-[7px] pt-[7px] text-[12px] font-medium shadow-lg dark:bg-gradient-to-b dark:from-[#0f0f0f] dark:to-[#191919]">
+                          <div _ngcontent-ng-c747300558
+                            class="w-[60%] scale-x-[1.2] pl-[13px] text-black dark:text-white"> Flush </div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[2px] text-[#cf8d2e]">1 to 4</div>
+                        </div>
+                        <div _ngcontent-ng-c747300558
+                          class="mb-[5px] flex w-full rounded bg-white px-[13px] pb-[7px] pt-[7px] text-[12px] font-medium shadow-lg dark:bg-gradient-to-b dark:from-[#0f0f0f] dark:to-[#191919]">
+                          <div _ngcontent-ng-c747300558
+                            class="w-[60%] scale-x-[1.2] pl-[13px] text-black dark:text-white"> Straight </div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[2px] text-[#cf8d2e]">1 to 6</div>
+                        </div>
+                        <div _ngcontent-ng-c747300558
+                          class="mb-[5px] flex w-full rounded bg-white px-[13px] pb-[7px] pt-[7px] text-[12px] font-medium shadow-lg dark:bg-gradient-to-b dark:from-[#0f0f0f] dark:to-[#191919]">
+                          <div _ngcontent-ng-c747300558
+                            class="w-[60%] scale-x-[1.2] pl-[13px] text-black dark:text-white"> Straight flush </div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[2px] text-[#cf8d2e]">1 to 35</div>
+                        </div>
+                        <div _ngcontent-ng-c747300558
+                          class="mb-[5px] flex w-full rounded bg-white px-[13px] pb-[7px] pt-[7px] text-[12px] font-medium shadow-lg dark:bg-gradient-to-b dark:from-[#0f0f0f] dark:to-[#191919]">
+                          <div _ngcontent-ng-c747300558
+                            class="w-[60%] scale-x-[1.2] pl-[13px] text-black dark:text-white"> Trio </div>
+                          <div _ngcontent-ng-c747300558 class="scale-x-[1.2] pl-[2px] text-[#cf8d2e]">1 to 45</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </app-game-market-payouts>
+            </aside>
+          </app-game-right-sidebar></main>
+      </app-race-t20-vr>
+    </div>
+    <div _ngcontent-ng-c4034313182></div>
+  </app-root>
+
+</body>
+
+</html>
